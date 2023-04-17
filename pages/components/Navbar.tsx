@@ -31,7 +31,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className=' left-0 top-0 w-full z-10 ease-in duration-300'
     >
-      <div className='max-w-7xl m-auto flex justify-between items-center pt-8 text-white '>
+      <div className='max-w-7xl m-auto flex justify-between items-center pt-8 '>
         <Link href='/'>
           <Image src={Logo} alt='CORE LOGO' className='w-12'></Image>
         </Link>
@@ -50,6 +50,9 @@ const Navbar = () => {
           </li>
           <li className='p-4'>
             <Link href='/contact'>CONTACT</Link>
+          </li>
+          <li className='p-4'>
+            <Link href='/news'>NEWS</Link>
           </li>
         </ul>
         <TbArrowsExchange size={28}/>

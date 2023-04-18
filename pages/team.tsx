@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import memberData from '../data/memberData.json'
-import Logo from '../public/core _logo.png'
+import memberData from '@/data/memberData.json'
+import Logo from '@/public/core _logo.png'
 export default function team() {
   const dataMember = memberData.filter(members => (
     members.id === "0"

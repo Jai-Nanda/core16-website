@@ -54,7 +54,7 @@ const Navbar = () => {
         </Link>
         <ul className='hidden sm:flex font-medium'>
           {links.map(link => (
-            <li className=''>
+            <li className='p-4'>
             <Link href={link.path}>{link.label}</Link>
           </li> 
           ))}

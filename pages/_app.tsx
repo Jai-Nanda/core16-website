@@ -9,12 +9,12 @@ const montserrat = Montserrat({
   subsets: ['latin'],
 })
 export default function App({ Component, pageProps }: AppProps) {
-  return <> <style jsx global>{`
+  return <> <ThemeProvider attribute='class'> <style jsx global>{`
   html {
     font-family: ${montserrat.style.fontFamily};
   }
 `}</style>
-<ThemeProvider attribute='class'>
+
 <Navbar/> <Component {...pageProps} /> </ThemeProvider>
 </>
 }

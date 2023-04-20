@@ -1,6 +1,8 @@
-import { TbArrowsExchange } from 'react-icons/tb'
 import { useState , useEffect } from 'react'
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
+import Logo from '../../public/core _logo.png'
+import Logo2 from '../../public/core_logo2.png'
 export default function ThemeButton() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -16,19 +18,17 @@ export default function ThemeButton() {
     
     if(currentTheme === 'dark') {
       return (
-        <button className=""
-          onClick={() => setTheme('light')}
+        <Image className="" src={Logo} alt='CORE LOGO'
         >
-        <TbArrowsExchange size={28}/>
-        </button>
+      
+        </Image>
       )
     } else {
       return (
-        <button className=""
-          onClick={() => setTheme('dark')}
+        <Image className="" src={Logo2} alt='CORE LOGO'
         >
-        <TbArrowsExchange size={28}  />
-        </button>
+       
+        </Image>
       )
     }
 

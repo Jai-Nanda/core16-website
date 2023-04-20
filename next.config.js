@@ -5,6 +5,6 @@ const nextConfig = {
 
 module.exports = {
     images: {
-        domains: ['i.imgur.com', 'imgur.com', 'cdn.discordapp.com']
+        domains: ['i.imgur.com', 'imgur.com', 'cdn.discordapp.com', 'media.discordapp.net']
     },
 }

@@ -1,51 +1,44 @@
 [
+  {
+    "name": "Gurpreet Gandhi",
+    "post": "Teacher-In Charge",
+    "phone": "+91 9891156066",
+    "email": "mailto:ggdps123@gmail.com ",
+    "id": "0"
+  },  
     {
       "name": "Amit Dua",
-      "post": "Head",
+      "post": "Teacher-In Charge",
       "phone": "+91 9811203062",
-      "email": "mailto:amitdua15@rediffmail.com"
-    },
-    {
-      "name": "Gurpreet Gandhi",
-      "post": "Head",
-      "phone": "+91 9891156066",
-      "email": "mailto:ggdps123@gmail.com "
-    },
-    {
-      "name": "Manan",
-      "post": "President",
-      "phone": "+91 7004225501",
-      "email": "mailto:president@coreisus.com"
-    },
-    {
-      "name": "Taran Chadha",
-      "post": "Vice-President",
-      "phone": "+91 7701953668",
-      "email": ""
-    },
-  
-    {
-      "name": "Gaurika Agarwal",
-      "post": "Creative Head",
-      "phone": "+91 8368215773",
-      "email": "mailto:gaurikaagarwal11@gmail.com"
-    },
-    {
-      "name": "Karmanya Bhalla",
-      "post": "Hardware Head",
-      "phone": "+91 7840048111",
-      "email": "mailto:bhallakarmanya18@gmail.com"
+      "email": "mailto:amitdua15@rediffmail.com",
+      "id": "0"
     },
     {
       "name": "Rahul Ramdev",
       "post": "Gaming Head",
       "phone": "+91 9811106696",
-      "email": "mailto:rahulramdev10@gmail.com"
+      "email": "mailto:rahulramdev10@gmail.com",
+      "id": "1"
     },
     {
       "name": "Anant Choudhary",
       "post": "Multimedia Head",
       "phone": "+91 9560304473",
-      "email": "mailto:Anantcchoudhary@gmail.com"
+      "email": "mailto:Anantcchoudhary@gmail.com",
+      "id": "1"
+    },
+    {
+      "name": "Arnav Verma",
+      "post": "Multimedia Head",
+      "phone": "+91 9560034355",
+      "email": "mailto:gaurikaagarwal11@gmail.com",
+      "id": "1"
+    },
+    {
+      "name": "Vaibhav Singh",
+      "post": "Cryptic Head",
+      "phone": "+91 9315260865",
+      "email": "mailto:bhallakarmanya18@gmail.com",
+      "id": "1"
     }
   ]

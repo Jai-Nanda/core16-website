@@ -4,71 +4,87 @@
     "avatar": "https://imgur.com/CJnszdo.jpg",
     "post": "President",
     "description": "Gamer mei, game bhi mei",
-    "id": "0"
+    "id": "0",
+    "skill": "Gaming | Hardware | Group Discussion"
   },
   {
     "name": "Anant Choudhary",
     "avatar": "https://i.imgur.com/mSPFvM4.jpg",
     "post": "Vice President",
     "description": "Kanhaiya West",
-    "id": "0"
+    "id": "0",
+    "skill": "3D | Audio Production | Photography"
   },
   {
     "name": "Vaibhav Singh",
     "avatar": "https://cdn.discordapp.com/attachments/853217045407596566/1051178212715155487/551985FD-CAEB-4527-8190-1EED58FFFCF1.jpg",
     "post": "Cryptic Head",
     "description": "meitohthirdchildhoo",
-    "id": "0"
+    "id": "0",
+    "skill": "Cryptic Hunting | Surprise"
   },
   {
     "name": "Arnav Narang",
     "avatar": "https://media.discordapp.net/attachments/853217045407596566/1051203019141828728/IMG_5336.png?width=323&height=675",
     "post": "Research Head",
     "description": "FITZEE",
-    "id": "1"
+    "id": "1",
+    "skill": "Research | Linguistics  "
   },
   {
     "name": "Arnav Verma",
     "avatar": "https://media.discordapp.net/attachments/897253802934165514/1057986175740149870/image.png",
     "post": "Multimedia Head",
     "description": "mujhe kya mei toh arni hun",
-    "id": "1"
+    "id": "1",
+    "skill": "Video Editing | Design | Photography"
   },
   {
     "name": "Divyansh Khurana",
     "avatar": "https://imgur.com/bTm4MVk.png",
     "post": "Member",
     "description": "Feeling good, like I should",
-    "id": "1"
+    "id": "1",
+    "skill": "Cryptic Hunting | Surprise "
   },
   {
     "name": "Raghav Grover ",
     "avatar": "https://cdn.discordapp.com/attachments/880685273858584608/1051218911875584070/image.png",
     "post": "Member",
-    "description": "GAMEDEVLOPEÐ¯"
+    "description": "GAMEDEVLOPEÐ¯",
+    "id": "2",
+    "skill": "Game Development"
   },
   {
     "name": "Prabhnoor Kaur",
     "avatar": "https://media.discordapp.net/attachments/1036618809668288532/1095342240609620029/IMG-20230411-WA0003.png",
     "post": "Member",
-    "description": "Punjab"
+    "description": "Punjab",
+    "id": "2",
+    "skill": "Gaming | Hardware | Group Discussion"
   },
   {
     "name": "Jai Nanda",
     "avatar": "https://imgur.com/HQ6qV24.png",
     "post": "Member",
-    "description": "nandos"
+    "description": "nandos",
+    "id": "2",
+    "skill": "Web Development | Design"
   },
   {
     "name": "Pranjal Solanki",
     "avatar": "https://media.discordapp.net/attachments/953887608608538624/1095386501887569980/IMG_3835.png?width=456&height=676",
     "post": "Member",
-    "description": "I have a gf"
+    "description": "I have a gf",
+    "id": "3",
+    "skill": "Video Editing | Design | 3D"
   },
   {
     "name": "Ashni Ahlawat",
     "avatar": "https://i.imgur.com/ZJo8wdg.jpg",
     "post": "Member",
-    "description": "peaky blinder"
+    "description": "peaky blinder",
+    "id": "3",
+    "skill": "Programming"
   }
 ]

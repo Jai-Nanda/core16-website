@@ -2,34 +2,38 @@
      [
       {
         "title": "Creative",
-        "date": "Doe",
-        "link": "random",
-        "desc": "john.doe@example.com",
-        "contact": "bin laden",
+        "date": "TBA",
+        "link": "https://docs.google.com/document/d/1tahI7_E9FrGtDH4H41FaarqqxdeYcJ2615wUB7OBZnA/edit",
+        "note": "Creativity. Enough Said.",
+        "desc": "Designathon + Hackathon. Ready to be challenged on your creativity and design skills? Then this event is for you. Assemble a team of 6 best Developers, Designers, 3D Modellers and Audio Producers, if you wish to pwn this event.",
+        "contact": "",
         "id": "0"
       },
       {
         "title": "Programming",
-        "date": "Smith",
-        "link": "shit",
-        "desc": "jane.smith@example.com",
-        "contact": "bin laden",
+        "date": "TBA",
+        "link": "https://docs.google.com/document/d/1f1hECN8wFMdqu1SAVKK_fbvMW1kNrgdbsCuUIoKsnfI/edit",
+        "note": "int a=68; a++",
+        "desc": "An offline competitive programming event. Announcements related to the prelims will be made online and via email",
+        "contact": "",
         "id": "0"
       },
       {
         "title": "Gaming",
-        "date": "Johnson",
-        "link": "bruh",
-        "desc": "bob.johnson@example.com",
-        "contact": "bin laden",
+        "date": "TBA",
+        "link": "https://docs.google.com/document/d/1KHT6Kkr5gDDUxnCqvASoIRyzZHJ-Nj70g01ma6u5NjQ/edit",
+        "note": "Pwned.",
+        "desc": "Gaming will be conducted in three rounds all platforms.",
+        "contact": "",
         "id": "0"
       },
       {
         "title": "enCORE",
-        "date": "Johnson",
-        "link": "cringe",
-        "desc": "bob.johnson@example.com",
-        "contact": "bin laden",
+        "date": "TBA",
+        "link": "https://docs.google.com/document/d/16up13djuf0EKG6mXe1TVQ-dSgllSIwUm5oUytjriVIE/edit",
+        "note": "agkrr fkcom d",
+        "desc": "It’s time to change this game. Tune an event for an all new event which will test your critical thinking, technical skill, and obviously, that obsession",
+        "contact": "",
         "id": "1"
       }
     ]

@@ -1,4 +1,4 @@
-import { TbArrowsExchange } from 'react-icons/tb'
+import { TbArrowsExchange, TbArrowsExchange2 } from 'react-icons/tb'
 import { useState , useEffect } from 'react'
 import { useTheme } from 'next-themes';
 export default function ThemeButton() {
@@ -26,8 +26,9 @@ export default function ThemeButton() {
       return (
         <button className=""
           onClick={() => setTheme('dark')}
+          style={{ transition: "ease-in"}}
         >
-        <TbArrowsExchange size={28}  />
+        <TbArrowsExchange2 size={28}  />
         </button>
       )
     }

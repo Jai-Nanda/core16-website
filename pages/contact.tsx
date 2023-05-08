@@ -48,7 +48,7 @@ export default function Contact() {
           {dataContact.map(person => (
             <div className=''>
               {/*<img className={styles.image} src={member.avatar} alt={member.name} />*/}
-              <div className='flex flex-col justify-center items-center border-2 border-primary-color rounded-lg w-80 h-44'>
+              <div className='flex flex-col justify-center items-center border-2 border-primary-color rounded-2xl w-80 h-44'>
                 <h1 className='pb-1 text-lg font-semibold'>{person.name}</h1>
                 <h2 className='text-primary-color pb-1 font-medium'>{person.post}</h2>
                 <p className='pb-1'>
@@ -66,7 +66,7 @@ export default function Contact() {
           {dataContact2.map(person => (
             <div className=''>
               {/*<img className={styles.image} src={member.avatar} alt={member.name} />*/}
-              <div className='flex flex-col justify-center items-center border-2 border-primary-color rounded-lg w-72 h-44'>
+              <div className='flex flex-col justify-center items-center border-2 border-primary-color rounded-2xl w-72 h-44'>
                 <h1 className='pb-1 text-lg font-semibold'>{person.name}</h1>
                 <h2 className='text-primary-color pb-1 font-medium'>{person.post}</h2>
                 <p className='pb-1'>

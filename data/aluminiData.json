@@ -1,0 +1,708 @@
+[
+    {
+      "year": "2021",
+      "members":[
+        {
+          "name": "Hitarth Khurana",
+          "avatar": "https://imgur.com/1zCBgDg.jpg",
+          "post": "President",
+          "description": "COREana",
+          
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:raghavpuri1234567@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Inesh Tickoo",
+          "avatar": "https://imgur.com/Irmas1d.png",
+          "post": "Vice President",
+          "description": "figma male",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "members":[
+        {
+          "name": "Shobhit Rathi",
+          "avatar": "https://imgur.com/JzYqjCp.jpeg",
+          "post": "President",
+          "description": "TU Eindhoven 2025",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:raghavpuri1234567@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Alankrita Ghosh",
+          "avatar": "https://imgur.com/TpofhSA.jpeg",
+          "post": "Vice President",
+          "description": "UCLA 2025",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "members": [
+        {
+          "name": "Raghav Puri",
+          "avatar": "https://i.imgur.com/iOdzTof.jpg",
+          "post": "President, 2019-20 Batch",
+          "description": "\"I wish there was a way to know that you're in the good old days before you've left them\"",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:raghavpuri1234567@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Tapish Golcha",
+          "avatar": "https://imgur.com/yxlcWrU.jpg",
+          "post": "Vice-President, 2019-20 Batch",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "description": "\"Don't do drugs.\"",
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "members": [
+        {
+          "name": "Jotsaroop Singh",
+          "avatar": "https://github.com/ShobhitRathi/C12_webpage/blob/master/img/jot_1.jpg?raw=true",
+          "post": "President, 2018-19 Batch",
+          "description": "\"gglolreaxonli. #PrezCares Forever\"",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Harshit Bhasin",
+          "avatar": "https://i.imgur.com/mS5RuSS.jpeg",
+          "post": "Vice-President, 2018-19 Batch",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "description": "\"CORE was and is the family that we all looked for in school. I'm glad to have found them and to see that all our juniors have been handling the legacy so beautifully\"",
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "members": [
+        {
+          "name": "Jaskirat Gujral",
+          "avatar": "https://i.imgur.com/s2FAkxQ.png?1",
+          "post": "President, 2018-19 Batch",
+          "description": "\"From screaming at the CORE team in the computer labs to spending weeks at the auditorium stage, I cant even imagine what school life would have been had it not been the people i spent these all years with, had it not been all the experiences i gained, had it not been all the opportunities i had got, had it not been DPS Dwarka.\"",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Yogesh Aggarwal",
+          "avatar": "https://imgur.com/6eeeQo0.jpg",
+          "post": "Vice-President, 2018- 19 Batch",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "description": "\"Some of the best times with the best people\"",
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+  
+    {
+      "year": "2016",
+      "members": [
+        {
+          "name": "Sidhant Bansal",
+          "avatar": "https://avatars0.githubusercontent.com/u/5311283?s=460&v=4",
+          "post": "President, 2016-17 Batch",
+          "description": "NUS 2021",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Agastya Jha",
+          "avatar": "https://imgur.com/HkvGHYD.jpg?1",
+          "post": "Vice-President, 2017-18 Batch",
+          "description": "CS IIIT Delhi 2021",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Anubhav Baweja",
+          "avatar": "https://imgur.com/7dyyhdZ.jpg",
+          "post": "Vice-President, 2017-18 Batch",
+          "description": "Citadel | CMU 2021",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "members": [
+        {
+          "name": "Bhuvesh Mehendiratta",
+          "avatar": "https://imgur.com/eNNc0om.jpg",
+          "post": "President, 2015-16 Batch",
+          "description": "\"To CORE. The one and the only thing that matters.\"",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Rohan Kumar",
+          "avatar": "https://imgur.com/ZLZiQMj.jpg",
+          "post": "Vice-President, 2015-16 Batch",
+          "description": "Google | UChicago CS (MS)",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2014",
+      "members": [
+        {
+          "name": "Arul Ajmani",
+          "avatar": "https://imgur.com/QNhMJyf.jpg",
+          "post": "President, 2014-15 Batch",
+          "description": "Cockroach Labs, Bloomberg LP | UWaterloo 2020 (Deans Honors List)",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Sahil Chadha",
+          "avatar": "https://i.imgur.com/5FhzFcG.png?1",
+          "post": "Vice-President, 2014-15 Batch",
+          "description": "Quant Analyst at Deutsche Bank | Imperial College London ",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2013",
+      "members": [
+        {
+          "name": "Aaryaman Chakraborty",
+          "avatar": "https://imgur.com/z8TPDHg.jpg",
+          "post": "President, 2013-14 Batch",
+          "description": "Ernst & Young | BMSCOE 2018",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Navendu Jha",
+          "avatar": "https://i.imgur.com/bf5QZye.png?1",
+          "post": "Vice-President, 2013-14 Batch",
+          "description": "ARM Worldwide | Delhi University ",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2012",
+      "members": [
+        {
+          "name": "Anunay Kulshrestha",
+          "avatar": "https://github.com/anunayk.png",
+          "post": "President, 2012-13 Batch",
+          "description": "Bloomberg LP | Stanford B.S. CS+Math, M.A Public Policy. Princeton CS PhD 2023.  Research Fellow @ MIT Sloan School of Management.",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Ojasvi Trikha",
+          "avatar": "https://imgur.com/pXUP9e1.png",
+          "post": "Vice-President, 2012-13 Batch",
+          "description": "SCAD 2017",
+          "whereabouts": [
+            "Works at BlackBerry",
+            "Studied at Savannah College of Art and Design"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2011",
+      "members": [
+        {
+          "name": "Sopandev Tewari",
+          "avatar": "https://imgur.com/zQoJt4B.png",
+          "post": "President, 2011-12 Batch",
+          "description": "Shipsy; Deloitte | DTU CS 2016 ",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Sankalp Sethi",
+          "avatar": "https://imgur.com/MzYPmyw.png",
+          "post": "Vice-President, 2011-12 Batch",
+          "description": "BITS Dubai 2016",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2010",
+      "members": [
+        {
+          "name": "Shubham Bhatia",
+          "avatar": "https://imgur.com/gQ5jh2X.jpg",
+          "post": "President, 2010-11 Batch",
+          "description": "General Surgery Resident at Flushing Hospital Medical Center | Research Scholar @ USC; University College of Medical Science & Guru Teg Bahadur Hospital",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Ashwin Buti",
+          "avatar": "https://imgur.com/MJozfOm.png",
+          "post": "Vice-President, 2010-11 Batch",
+          "description": "Director, Buti Constructions",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2009",
+      "members": [
+        {
+          "name": "Ravi Punj",
+          "avatar": "https://i.imgur.com/lcNY1Xd.jpg",
+          "post": "President, 2009-10 Batch",
+          "description": "Founder at Maryh (askmaryh.com) | UC Berkeley 2014",
+          "whereabouts": [
+            "Studied at University of California, Berkeley",
+            "Founder at Maryh (askmaryh.com)"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Aditya Chitral",
+          "avatar": "https://imgur.com/bdlHmVM.jpg",
+          "post": "Vice-President, 2009-10 Batch",
+          "description": "PM @ Credit Saison Co., Ltd. | Thapar CS 2015",
+          "whereabouts": ["Lives in Sofia, Bulgaria"],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2008",
+      "members": [
+        {
+          "name": "Rachit Bhatnagar",
+          "avatar": "https://imgur.com/ppLvVO4.jpg",
+          "post": "President and Founder, 2008-09 Batch",
+          "description": "\"CORE Team, YNWA\"",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Rupin Kumar",
+          "avatar": "https://imgur.com/uNZE78N.png?1",
+          "post": "Vice-President and Founding Member, 2008-09 Batch",
+          "description": "PayPal; Dell | VIT CS 2013",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2007",
+      "members": [
+        {
+          "name": "Ankit Buti",
+          "avatar": "https://imgur.com/m06qPKX.jpg",
+          "post": "Founding Member, 2007-08 Batch",
+          "description": "Atal Innovation Mission; WorkSpan; WizAR Learning; Founder and CEO StartupEd | Purdue CS 2012",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Shitij Nigam",
+          "avatar": "https://imgur.com/EPQiwVw.png",
+          "post": "Founding Member, 2007-08 Batch",
+          "description": "YouTube | SMU + CMU 2012",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2006",
+      "members": [
+        {
+          "name": "Jyotaditya Singh",
+          "avatar": "https://imgur.com/Rl010LI.jpg",
+          "post": "Founding Member, 2006-07 Batch",
+          "description": "Roywell LLC | University of Oklahama",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        },
+        {
+          "name": "Mubeen Musaid",
+          "avatar": "https://i.imgur.com/f5lapsBh.jpg",
+          "post": "Founding Member, 2006-07 Batch",
+          "description": "og",
+          "whereabouts": [
+            "Sophomore at Johns Hopkins",
+            "Sophomore at Johns Hopkins"
+          ],
+          "socials": [
+            {
+              "instagram": "https://instagram.com/",
+              "facebook": "https://facebook.com/",
+              "email": "mailto:abc@gmail.com",
+              "github": "https://github.com/",
+              "behance": "https://behance.net/"
+            }
+          ]
+        }
+      ]
+    }
+  ]

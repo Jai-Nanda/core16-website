@@ -4,21 +4,21 @@
     "dates": "Websites and apps",
     "link": "https://docs.google.com/document/d/1UlGFd9b1Orkn76GsscvLvotRKMolTeDS3QAhPwckX4Y/edit",
     "description2": "Writing code to develop beautiful and functional websites and apps for the internet",
-    "contact": "Manan, Vansh Sachdeva",
+    "contact": "Jai Nanda",
     "id": "0"
   },
   {
     "name": "Design",
     "link": "https://docs.google.com/document/d/1W0hCsuSHZsnoURAMxXlfJDPSYrFKwVuEH3ejZV-yl3k/",
     "description2": "The skill of making posters, logos, apps, everything you see look aesthetically pleasing, and the science behind that.",
-    "contact": "Taran Chadha, Gaurika Agarwal",
+    "contact": "Arnav Verma, Pranjal Solanki, Jai Nanda",
     "id": "0"
   },
   {
     "name": "Programming",
     "link": "https://docs.google.com/document/d/146dR477UkbkdI2Tv1H97Tu-Ost1KtvRdb9Wx05Zv0TM/",
     "description2": "Instructing your PC to do cool stuff for you. Using or making algorithms that make the cool stuff faster.",
-    "contact": "Manan",
+    "contact": "Rahul Ramdev",
     "id": "0"
 
   },
@@ -42,56 +42,64 @@
     "name": "Machine Learning",
     "link": "https://docs.google.com/document/d/1aQpPaWUpDaxJYivmUkdlIFRv-22zF_U6NLAiJApANAk/",
     "description2": "Artifical Intelligence; Teaching and training your program to act smarter by itself",
-    "contact": "Vansh Sachdeva, Manan",
+    "contact": "Rahul Ramdev",
     "id": "1"
   },
   {
     "name": "Hacking/CTFs",
     "link": "https://docs.google.com/document/d/1NFb8q8hYI9aIrs4_XpKLfuvNzAD_RUyb_qGMDmtyL_o/",
     "description2": "Finding hidden information in files and exploiting vulnerabilities in computers",
-    "contact": "Rahul Ramdev, Vaibhav Singh"
+    "contact": "Rahul Ramdev",
+    "id": "2"
   },
   {
     "name": "Cryptic Hunts",
     "link": "https://docs.google.com/document/d/1XxcwC54mz6HLrnXiPDgAb0Qzatu56Bb2nOJhRQPBGBI/edit",
     "description2": "Follow trails of leads and clues to get to a question's answer. These answers aren't directly available on the internet, and each question generally takes a great deal of patience and mental prowess to solve.",
-    "contact": "Vaibhav Singh, Bhavye Pandey"
+    "contact": "Vaibhav Singh, Divyansh Khurana",
+    "id": "2"
   },
   {
     "name": "Video Editing",
     "link": "https://docs.google.com/document/d/1NLUmGfyVLYnDnc7Gy2mUXfU-eEiA6FOl-VV2YW5v_gE/edit?usp=sharing",
     "description2": "The art of manipulating and arranging video shots to tell a story or convey a message, using techniques such as cutting, splicing, and adding special effects to enhance the overall quality and impact of the final production.",
-    "contact": "Arnav Verma"
+    "contact": "Arnav Verma",
+    "id": "2"
   },
   {
     "name": "Linguistics",
     "link": "https://ltrc.iiit.ac.in/nlpmt/plo/#/resource/",
     "description2": "The science behind how languages work. Hold the power to translate foreign scripts without knowing a great deal about them.",
-    "contact": "Manan, Anant Choudhary"
+    "contact": "Rahul Ramdev, Anant Choudhary",
+    "id": "3"
   },
   {
     "name": "Group Discussion",
     "link": "",
     "description2": "Words hold unique power. Debate your way through your tech knowledge.",
-    "contact": "Rahul Ramdev"
+    "contact": "Prabhnoor Kaur, Rahul Ramdev",
+    "id": "3"
   },
   {
     "name": "Hardware",
     "link": "https://docs.google.com/document/d/1qF_BitdeElGJA1-3jpR1EuUnaBiD9pFyIpSV2oYyQqM/edit",
     "description2": "The base of computers: hardware. Building PCs and knowing stuff about them",
-    "contact": "Karmanya Bhalla, Rahul Ramdev"
+    "contact": "Rahul Ramdev",
+    "id": "3"
   },
   {
     "name": "Audio Production",
     "link": "",
     "description2": "Express your thoughts and ideas in form of music.",
-    "contact": "Taran Chadha"
+    "contact": "Anant Choudhary",
+    "id": "4"
   },
   
   {
     "name": "Quizzing and Crosswords",
     "link": "https://docs.google.com/document/d/1lDkocq7i9zumfB0_b0M9pOIe_La10By3geDxAZiamcw/edit?usp=sharing",
     "description2": "Use your knowledge in the right space.",
-    "contact": "Divyansh Khurana, Bhavye"
+    "contact": "Divyansh Khurana",
+    "id": "4"
   }
 ]

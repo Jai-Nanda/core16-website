@@ -8,7 +8,7 @@ export default function DPSMap() {
         height: `400px`,
         width: `400px`,
       }}
-      className=''
+      className='rounded-lg'
     >
       <iframe
         width="400"

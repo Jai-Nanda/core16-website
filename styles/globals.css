@@ -3,7 +3,8 @@
 @tailwind utilities;
 @layer base {
     body {
-      @apply dark:bg-bg-color dark:text-white bg-white text-bg-color
+      @apply dark:bg-gradient-to-b from-[#180F0B]	 via-[#040200] to-[#121212]
+      dark:text-white bg-white text-bg-color
     }
   }
 
@@ -11,4 +12,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: ease-in-out;
+}
+.shadow-custom{
+  background: linear-gradient(180deg, #1F0F00 -85.03%, #040200 108.32%), #121212;
 }

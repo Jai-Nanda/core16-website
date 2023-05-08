@@ -3,6 +3,9 @@ import type { AppProps } from 'next/app'
 import Navbar from './components/Navbar'
 import { Montserrat } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
+import  { useRef } from 'react'
+import LoadingBar from 'react-top-loading-bar'
+import Footer from './components/Footer'
 const montserrat = Montserrat({
   weight: ['400', '500', '700'],
   style: ['normal'],
@@ -15,6 +18,6 @@ export default function App({ Component, pageProps }: AppProps) {
   }
 `}</style>
 
-<Navbar/> <Component {...pageProps} /> </ThemeProvider>
+ <Navbar/> <LoadingBar color='#f11946' /> <Component {...pageProps} /> </ThemeProvider> <Footer/>
 </>
 }

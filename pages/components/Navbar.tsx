@@ -88,9 +88,9 @@ useEffect(() => {
         </Link>
         <ul className='hidden sm:flex font-medium'>
           {links.map(({label , path}) => (
- <ul key={""}> 
+ <ul key={label}> 
               <li className='px-6 py-4 '>
-              <Link href={path} key={label} className={`${router.pathname === path ? 'text-primary-color underline' : ''} `} >{label }</Link>
+              <Link href={path} key={""} className={`${router.pathname === path ? 'text-primary-color underline' : ''} `} >{label }</Link>
               </li>
             </ul>
           ))}

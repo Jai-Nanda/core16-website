@@ -14,7 +14,7 @@ export default function events() {
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center " >
 
         {dataEvent.map(({title, date, link, desc, contact, note}) => (
-          <div className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
+          <div key={title} className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
          <div className="h-full w-full rounded-2xl" style={{
       backgroundImage: `url(/veli.png)`,
       backgroundSize: 'cover',
@@ -35,7 +35,7 @@ export default function events() {
               <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-center sm:mt-10 sm:items-center " >
 
 {dataEvent2.map(({title, date, link, desc, contact, note}) => (
-  <div className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
+  <div key={date} className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
  <div className="h-full w-full rounded-xl" style={{
 backgroundImage: `url(/veli.png)`,
 backgroundSize: 'cover',

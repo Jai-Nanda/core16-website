@@ -20,28 +20,28 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  const controlNavbar = () => {
-    if (window.scrollY > 200) {
-        if (window.scrollY > lastScrollY && !handleNav) {
-            setShowJ("-translate-y-[80px]");
-        } else {
-            setShowJ("shadow-sm");
-        }
-    } else {
-        setShowJ("translate-y-0");
-    }
-    setLastScrollY(window.scrollY);
-};
+//   const controlNavbar = () => {
+//     if (window.scrollY > 200) {
+//         if (window.scrollY > lastScrollY && !handleNav) {
+//             setShowJ("-translate-y-[80px]");
+//         } else {
+//             setShowJ("shadow-sm");
+//         }
+//     } else {
+//         setShowJ("translate-y-0");
+//     }
+//     setLastScrollY(window.scrollY);
+// };
 
-useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
-    return () => {
-        window.removeEventListener("scroll", controlNavbar);
-    };
-}, [lastScrollY]);
+// useEffect(() => {
+//     window.addEventListener("scroll", controlNavbar);
+//     return () => {
+//         window.removeEventListener("scroll", controlNavbar);
+//     };
+// }, [lastScrollY]);
 
-useEffect(() => {
-}, []);
+// useEffect(() => {
+// }, []);
   const links = [
     {
       label: "HOME",
@@ -133,7 +133,7 @@ useEffect(() => {
               : 'hidden sm:hidden'
           }>
           {links.map(({label , path, pname}) => (
-            <ul>
+            <ul key={path}>
               <li className='p-4 text-lg'>
               <Link href={path} key={pname} className={`${router.pathname === path ? 'text-primary-color underline' : 'text-white'}`} onClick={toggle} onBlur={hide} onFocus={show}>{label}</Link>
 

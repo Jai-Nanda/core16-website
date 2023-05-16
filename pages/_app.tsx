@@ -24,7 +24,6 @@ export default function App({ Component, pageProps }: AppProps) {
     });
   }, [])
   
-  
   return <> <ThemeProvider attribute='class'> <style jsx global>{`
   html {
     font-family: ${montserrat.style.fontFamily};

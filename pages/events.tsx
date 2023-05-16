@@ -13,7 +13,7 @@ export default function events() {
     <div className='max-w-7xl m-auto '>
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center " >
 
-        {dataEvent.map(data => (
+        {dataEvent.map(({title, date, link, desc, contact, note}) => (
           <div className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
          <div className="h-full w-full rounded-2xl" style={{
       backgroundImage: `url(/veli.png)`,
@@ -22,11 +22,11 @@ export default function events() {
       
     }}>
       <div className='flex flex-col justify-center items-center pt-5'>
-              <h2 className='font-semibold text-xl text-center'>{data.title}</h2>
-              <h2 className='mt-1 text-center'>{data.note}</h2>
-              <h4 className='mt-1 text-center font-semibold text-xs text-primary-color'>{data.date}</h4>
-              <p className='font-thin text-center text-sm max-w-[250px] mt-1 '>{data.desc} </p>
-              <Link href={data.link} className='text-base text-primary-color underline font-medium mt-2 text-center'>Learn More</Link>
+              <h2 className='font-semibold text-xl text-center'>{title}</h2>
+              <h2 className='mt-1 text-center'>{note}</h2>
+              <h4 className='mt-1 text-center font-semibold text-xs text-primary-color'>{date}</h4>
+              <p className='font-thin text-center text-sm max-w-[250px] mt-1 '>{desc} </p>
+              <Link href={link} className='text-base text-primary-color underline font-medium mt-2 text-center'>Learn More</Link>
           </div>
           </div>
       </div>
@@ -34,7 +34,7 @@ export default function events() {
               </div>
               <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-center sm:mt-10 sm:items-center " >
 
-{dataEvent2.map(data => (
+{dataEvent2.map(({title, date, link, desc, contact, note}) => (
   <div className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
  <div className="h-full w-full rounded-xl" style={{
 backgroundImage: `url(/veli.png)`,
@@ -43,11 +43,11 @@ backgroundRepeat: 'no-repeat'
 
 }}>
 <div className='flex flex-col justify-center items-center pt-5'>
-      <h2 className='font-semibold text-2xl text-center'>{data.title}</h2>
-      <h2 className='mt-1 text-center'>{data.note}</h2>
-      <h4 className='mt-1 text-center font-semibold text-xs text-primary-color'>{data.date}</h4>
-      <p className='font-thin text-center text-sm max-w-[250px] mt-1 '>{data.desc} </p>
-      <Link href={data.link} className='text-lg text-primary-color underline font-medium mt-2 text-center'>Learn More</Link>
+      <h2 className='font-semibold text-2xl text-center'>{title}</h2>
+      <h2 className='mt-1 text-center'>{note}</h2>
+      <h4 className='mt-1 text-center font-semibold text-xs text-primary-color'>{date}</h4>
+      <p className='font-thin text-center text-sm max-w-[250px] mt-1 '>{desc} </p>
+      <Link href={link} className='text-lg text-primary-color underline font-medium mt-2 text-center'>Learn More</Link>
   </div>
   </div>
 </div>

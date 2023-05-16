@@ -5,7 +5,7 @@ import hey from '../public/core _logo.png'
 export default function team() {
   return (
     <div className="max-w-7xl  m-auto mt-[3%] ">
-      <div className="flex justify-center items-center">
+      <div className="sm:flex-row sm:flex sm:justify-center sm:items-center flex flex-col justify-center items-center">
         <Link href={"/team"} className="text-4xl font-bold  ml-[3%]">Members</Link>
         <Link href={"/alumini"} className="text-4xl font-bold text-primary-color  ml-[3%]">Alumini</Link>
       </div>
@@ -16,12 +16,12 @@ export default function team() {
             <h1 className='text-center font-semibold text-3xl mt-16 mb-16'>
               <a>{a.year}</a>
             </h1>
-            <div className='flex justify-between items-center'>
+            <div className='sm:flex-row flex sm:justify-between flex-col items-center  m-auto'>
             {a.members.map(member => (
-              <div className='border-t-2 border-b-2 rounded-lg border-r-2  w-[500px] h-60 border-primary-color '>
-                <div className='flex flex-col  justify-center items-center   relative'>
+              <div className='max-w-[80%] sm:max-w-full mt-10 m-auto border-t-4 border-b-4 rounded-2xl border-r-4 sm: sm:w-[500px] sm:h-60 border-[#642C15] w-[70%] h-44'>
+                <div className='sm:flex sm:flex-row-reverse  sm:justify-center sm:items-center flex flex-col  relative'>
                   <img
-                    className=' w-[255px] h-[255px] rounded-full border border-primary-color absolute -left-20 -top-2'
+                    className='w-[62%] sm:w-[255px] sm:h-[255px] -top-3   -left-10 rounded-full border border-[#642C15] absolute sm:-left-20 sm:-top-2'
                     src={member.avatar}
                     alt={member.name}
                   />

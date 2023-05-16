@@ -23,7 +23,6 @@ export default function events() {
     <>
     <div>
     <div className='max-w-7xl m-auto pt-[3%] ' >
-        <h1 className='text-5xl font-bold text-center text-primary-color pb-[3%]'>Resources</h1>
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center">
 
         {dataResource.map(data => (

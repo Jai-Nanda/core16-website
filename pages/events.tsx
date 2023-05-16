@@ -10,12 +10,11 @@ export default function events() {
 
   return (
     <>
-    <div className='max-w-7xl m-auto mt-[3%] '>
-        <h1 className='text-5xl font-bold text-center text-primary-color mb-[3%]'>Events</h1>
+    <div className='max-w-7xl m-auto '>
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center " >
 
         {dataEvent.map(data => (
-          <div className='border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
+          <div className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
          <div className="h-full w-full rounded-2xl" style={{
       backgroundImage: `url(/veli.png)`,
       backgroundSize: 'cover',
@@ -36,7 +35,7 @@ export default function events() {
               <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-center sm:mt-10 sm:items-center " >
 
 {dataEvent2.map(data => (
-  <div className='border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
+  <div className='mt-[5%] border-4 w-80 h-[300px] border-primary-color rounded-2xl '>
  <div className="h-full w-full rounded-xl" style={{
 backgroundImage: `url(/veli.png)`,
 backgroundSize: 'cover',

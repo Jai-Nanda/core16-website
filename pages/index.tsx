@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
       <div className=' '>
 
-      <main className='flex justify-center items-center  max-w-7xl m-auto mt-[10%] w-full '>
-        <div className=' mr-72'>
-          <h1 className='text-7xl font-bold'>C.O.Я.E <span className='text-primary-color'>16</span></h1>
+      <main className='flex flex-col justify-center items-center mt-[10%] sm:flex-row sm:justify-center sm:items-center  sm:max-w-7xl sm:m-auto sm:mt-[10%] sm:w-full '>
+        <div className=' sm:mr-72'>
+          <h1 className=' text-5xl text-center sm:text-7xl font-bold'>C.O.Я.E <span className='text-primary-color'>16</span></h1>
           <div className='flex justify-center items-center mt-4 '>
             <BsFacebook size={20} className='mx-2'/>
             <BsInstagram size={20} className='mx-2'/>
@@ -25,18 +25,23 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <Image src={Home_image} alt='HOME IMAGE' className='w-[620px] '></Image>
+          <Image src={Home_image} alt='HOME IMAGE' className='sm:min-w-[620px] max-w-[80%] m-auto mt-10 '></Image>
         </div>
       </main>
-        <main className='flex justify-center   max-w-7xl m-auto mt-[10%] w-full '>
+        <main className='flex flex-col justify-center items-center mt-[10%] sm:flex-row sm:justify-center sm:items-center  sm:max-w-7xl sm:m-auto sm:mt-[10%] sm:w-full '>
         <div className='mt-5'>
-          <h1 className='text-6xl font-bold'>About <span className='text-primary-color'>Us</span></h1>
-          <div className='  mt-4'>
-           <p className='pr-20'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, blanditiis magnam nihil numquam tempora voluptates a ex non suscipit consequuntur, doloremque corporis nesciunt? Deleniti aut minima eaque, doloribus quos illum.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eaque explicabo culpa amet, unde molestiae nam consequuntur nihil aspernatur libero tempore quis praesentium doloribus dolorem harum aut modi ut eveniet.</p>
+          <h1 className='text-4xl text-center sm:text-6xl font-bold sm:text-left text-primary-color'>About Us</h1>
+          <div className='mt-5 '>
+           <p className='sm:max-w-[90%] sm:mt-5 max-w-[80%] m-auto mt-5 text-center sm:text-left sm:m-0'>Instituted in 2008 by the students of Delhi Public School Dwarka, COЯE was established with the aim of promoting competence and excellence in the field of computer and information technology at school, as well as various inter-school symposia. COЯE hosted its first Inter School Symposium in 2008. Since then, we have not looked back.</p>
+           <p className='sm:max-w-[90%] sm:mt-5 max-w-[80%] m-auto mt-5 text-center sm:text-left sm:m-0'>
+Over the years, the club has progressed phenomenally, dominating several competitions and attaining victory. We have set high standards and ensure that we not only conform to these year after year, but set the bar a few notches higher. It takes a radical attitude, love for computers and an exceptional set of skills to be a part of the club.
+</p>
+<p className='sm:max-w-[90%] sm:mt-5 max-w-[80%] m-auto mt-5 text-center sm:text-left sm:m-0'>
+COЯE 15 was held on 7th-15th October 2022. Certainly one of the best symposiums last year, it consisted of various events like Programming, Web Design, Gaming, Cryptic Hunt etc. The overall trophy was bagged by AISG46.</p>
           </div>
         </div>
         <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5anMlH-hEzg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
+        <iframe className='sm:mt-10 sm:rounded-2xl max-w-[80%] m-auto mt-10 max-h-[270px] sm:min-w-[540px] sm:min-h-[315px]' width="540" height="315" src="https://www.youtube.com/embed/5anMlH-hEzg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
         </div>
       </main>
       </div>

@@ -4,25 +4,31 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import ThemeButton from './ThemeButton';
 import { useRouter } from 'next/router';
 import LogoTheme from '../components/LogoTheme'
+import { Turn as Hamburger, Turn } from 'hamburger-react'
 const Navbar = () => {
   const router = useRouter()
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  const hide = () => setIsOpen(false);
+  const show = () => setIsOpen(true)
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
   const [textColor, setTextColor] = useState('white');
-  const [show, setShow] = useState("translate-y-0");
+  const [showJ, setShowJ] = useState("translate-y-0");
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isOpenJ, setIsOpenJ] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
   const controlNavbar = () => {
     if (window.scrollY > 200) {
         if (window.scrollY > lastScrollY && !handleNav) {
-            setShow("-translate-y-[80px]");
+            setShowJ("-translate-y-[80px]");
         } else {
-            setShow("shadow-sm");
+            setShowJ("shadow-sm");
         }
     } else {
-        setShow("translate-y-0");
+        setShowJ("translate-y-0");
     }
     setLastScrollY(window.scrollY);
 };
@@ -67,11 +73,6 @@ useEffect(() => {
       path: "/contact",
       pname: "contact"
     },
-    {
-      label: "GALLERY",
-      path: "/gallary",
-      pname: "gallery"
-    }
   ]
 
 
@@ -86,50 +87,60 @@ useEffect(() => {
           <LogoTheme/>
         </Link>
         <ul className='hidden sm:flex font-medium'>
-          {/* {links.map(link => (
-            <li className='p-4' key={""}>
-            <Link  href={link.path} className={`${router.pathname === }`}>{link.label}</Link>
-
-            
-          </li> 
-          ))} */}
-
           {links.map(({label , path}) => (
-            <ul key={""}>
+ <ul key={""}> 
               <li className='px-6 py-4 '>
               <Link href={path} key={label} className={`${router.pathname === path ? 'text-primary-color underline' : ''} `} >{label }</Link>
               </li>
             </ul>
           ))}
-        </ul>
-        {/* <TbArrowsExchange size={28}/> */}
+          </ul>
         <ThemeButton/>
         {/* Mobile Button */}
-        <div onClick={handleNav} className='block sm:hidden z-10'>
+        <div onClick={handleNav} className='block  mr-10 sm:hidden z-10'>
           {nav ? (
-            <AiOutlineClose size={20}/>
+            // <AiOutlineClose size={24} className='cursor-pointer'/>
+            <div>
+              <button className='cursor-pointer'><Turn/></button>
+              
+            </div>
           ) : (
-            <AiOutlineMenu size={20} />
+            <div>
+              <button className='cursor-pointer' onClick={toggle}><Turn/></button>
+              <span className={`menu ${isOpen ? 'cross' : 'hamburger'}`}></span>
+            </div>
+            
           )}
         </div>
         {/* Mobile Menu */}
-        <div
+        {/* <div
           className={
             nav
-              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+              ? 'sm:hidden absolute min-h-[100vh] top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-gray-700 dark:bg-black text-center ease-in duration-300'
+              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-[100vh] bg-gra dark:bg-black text-center ease-in duration-300'
           }
+        > */}
+          <div
+          className={
+            nav
+              ? 'sm:hidden absolute min-h-[100vh] top-0 left-0 right-0 bottom-0 flex justify-center m items-center  h-screen bg-gray-700 dark:bg-black text-center transition-all ease-in duration-300'
+              : 'max-w-[80%] flex justify-between items-center sm:hidden bg-black absolute top-0 left-0 right-10 transiti'
+            }
         >
-          {/* <ul>
+          <ul className={
+            nav
+              ? 'sm:hidden'
+              : 'hidden sm:hidden'
+          }>
           {links.map(({label , path, pname}) => (
             <ul>
-              <li className='p-4'>
-              <Link href={path} key={pname} className={`${router.pathname === path ? 'text-primary-color underline' : 'text-white'}`}>{label}</Link>
+              <li className='p-4 text-lg'>
+              <Link href={path} key={pname} className={`${router.pathname === path ? 'text-primary-color underline' : 'text-white'}`} onClick={toggle} onBlur={hide} onFocus={show}>{label}</Link>
 
               </li>
             </ul>
           ))}
-          </ul> */}
+          </ul>
         </div>
       </div>
     </div>

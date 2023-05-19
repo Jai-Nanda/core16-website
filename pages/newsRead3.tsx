@@ -6,10 +6,8 @@ export default function NewsMore() {
 
     <h1 className='font-bold text-center text-primary-color text-2xl mt-[3%]'>The C.O.R.E. team participated in Xino 2022</h1>
       <div className='max-w-[80%] m-auto mt-10'>
-      <p className="font-medium">Greetings! 
-
-The C.O.Я.E. team participated in XINO'22, organised by Delhi Public School Rohini (Online) from 26-27th August 2022 and emerged as the Overall Runners Up of the event.</p>
-The team bagged the following awards.
+      <p className="font-medium">Greetings! The C.O.Я.E. team participated in XINO'22, organised by Delhi Public School Rohini (Online) from 26-27th August 2022 and emerged as the Overall Runners Up of the event.</p>
+<p>The team bagged the following awards.</p>
 <br/>
 <ul className='list-none '>
     <li className='mt-3'><b>Xquest(Cryptic Hunt): </b>

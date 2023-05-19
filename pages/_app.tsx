@@ -8,7 +8,7 @@ import LoadingBar from 'react-top-loading-bar'
 import Footer from './components/Footer'
 import { useRouter } from 'next/router'
 const montserrat = Montserrat({
-  weight: ['400', '500', '700'],
+  weight: [ '300','400', '500', '700'],
   style: ['normal'],
   subsets: ['latin'],
 })
@@ -35,6 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
         height={3}
         waitingTime={250}
         progress={progress}
+        style={{ border: `2px`}}
         onLoaderFinished={() => setProgress(0)}
       /> <Navbar/> <Component {...pageProps} /> </ThemeProvider> <Footer/>
 </>

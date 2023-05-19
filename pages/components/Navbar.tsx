@@ -1,8 +1,7 @@
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import ThemeButton from './ThemeButton';
 import { useRouter } from 'next/router';
+import { useEffect, useRef, useState } from 'react';
 import LogoTheme from '../components/LogoTheme'
 import { Turn as Hamburger, Turn } from 'hamburger-react'
 const Navbar = () => {
@@ -12,36 +11,23 @@ const Navbar = () => {
   const hide = () => setIsOpen(false);
   const show = () => setIsOpen(true)
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState('transparent');
-  const [textColor, setTextColor] = useState('white');
-  const [showJ, setShowJ] = useState("translate-y-0");
-  const [lastScrollY, setLastScrollY] = useState(0);
-  const [isOpenJ, setIsOpenJ] = useState(false);
+  const [navbar, setNavbar] = useState(false)
+
+  const changeBg = () => {
+    if(window.scrollY >= 80){
+      setNavbar(true)
+    }
+    else{
+      setNavbar(false)
+    }
+  }
+  useEffect(() => {
+    window.addEventListener('scroll', changeBg)
+  }, [])
+  
   const handleNav = () => {
     setNav(!nav);
   };
-//   const controlNavbar = () => {
-//     if (window.scrollY > 200) {
-//         if (window.scrollY > lastScrollY && !handleNav) {
-//             setShowJ("-translate-y-[80px]");
-//         } else {
-//             setShowJ("shadow-sm");
-//         }
-//     } else {
-//         setShowJ("translate-y-0");
-//     }
-//     setLastScrollY(window.scrollY);
-// };
-
-// useEffect(() => {
-//     window.addEventListener("scroll", controlNavbar);
-//     return () => {
-//         window.removeEventListener("scroll", controlNavbar);
-//     };
-// }, [lastScrollY]);
-
-// useEffect(() => {
-// }, []);
   const links = [
     {
       label: "HOME",
@@ -73,15 +59,20 @@ const Navbar = () => {
       path: "/contact",
       pname: "contact"
     },
+    {
+      label: "GALLERY",
+      path: "/gallery",
+      pname: "gallery"
+    },
   ]
 
 
   return (
     <div
       
-      className=' left-0 top-0 w-full z-10 ease-in duration-300 border-b border-b-primary-color pb-5'
+      className={navbar ? 'left-0 top-0 w-full z-10 ease-in duration-300  pb-3  sticky backdrop-blur-xl dark:bg-white/5 bg-black/5 transition-all' : ' sticky  left-0 top-0 w-full z-10 ease-in  duration-300  pb-2 transition-all'}
     >
-      <div className='max-w-7xl m-auto flex justify-between items-center pt-8 '>
+      <div className='max-w-7xl m-auto flex justify-between items-center pt-5 '>
         <Link href='/'>
           {/* <Image src={Logo} alt='CORE LOGO' className='w-12'></Image> */}
           <LogoTheme/>
@@ -89,8 +80,8 @@ const Navbar = () => {
         <ul className='hidden sm:flex font-medium'>
           {links.map(({label , path}) => (
  <ul key={label}> 
-              <li className='px-6 py-4 '>
-              <Link href={path} key={""} className={`${router.pathname === path ? 'text-primary-color underline' : ''} `} >{label }</Link>
+              <li className='px-6  '>
+              <Link href={path} key={""} className={`${router.pathname === path ? 'text-primary-color underline' : 'hover:text-primary-color transition-all'} `} >{label }</Link>
               </li>
             </ul>
           ))}
@@ -123,7 +114,7 @@ const Navbar = () => {
           <div
           className={
             nav
-              ? 'sm:hidden absolute min-h-[100vh] top-0 left-0 right-0 bottom-0 flex justify-center m items-center  h-screen bg-gray-700 dark:bg-black text-center transition-all ease-in duration-300'
+              ? 'sm:hidden absolute min-h-[100vh] top-0 left-0 right-0 bottom-0 flex justify-center m items-center  h-screen bg-gray-200 dark:bg-black text-center transition-all ease-in duration-300'
               : 'max-w-[80%] flex justify-between items-center sm:hidden bg-black absolute top-0 left-0 right-10 transiti'
             }
         >

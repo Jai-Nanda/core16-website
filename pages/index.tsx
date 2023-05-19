@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import {BsFacebook, BsInstagram, BsYoutube, BsLinkedin} from 'react-icons/bs'
 import Home_image from '../public/home_image.png'
+import Link from 'next/link'
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -18,10 +18,10 @@ export default function Home() {
         <div className=' sm:mr-72'>
           <h1 className=' text-5xl text-center sm:text-7xl font-bold'>C.O.Я.E <span className='text-primary-color'>16</span></h1>
           <div className='flex justify-center items-center mt-4 '>
-            <BsFacebook size={20} className='mx-2'/>
-            <BsInstagram size={20} className='mx-2'/>
-            <BsYoutube size={20} className='mx-2'/>
-            <BsLinkedin size={20} className='mx-2'/>
+            <Link href={"https://www.facebook.com/dpsCore/"}><BsFacebook size={20} className='mx-2'/></Link>
+           <Link href={"https://www.instagram.com/coreisus/"}> <BsInstagram size={20} className='mx-2'/></Link>
+            <Link href={"https://www.youtube.com/channel/UCTyKR4ln9jsG-EvnZCDg_ug"}><BsYoutube size={20} className='mx-2'/></Link>
+            <Link href={"https://www.linkedin.com/company/coreisus/"}><BsLinkedin size={20} className='mx-2'></BsLinkedin></Link>
           </div>
         </div>
         <div>

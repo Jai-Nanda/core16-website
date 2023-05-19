@@ -26,7 +26,7 @@ export default function events() {
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center">
 
         {dataResource.map(({name, link, description2, contact}) => (
-          <div key={name} className='border-4 w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
+          <div key={name} className='border-[2px] w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
          <div className="flex flex-col justify-center items-center pt-5">
               <h2 className='font-semibold text-xl text-center text-primary-color'>{name}</h2>
               <h2 className='mt-5 font-thin text-center max-w-[250px]'><span className='font-medium'>Contact: </span> {contact}</h2>
@@ -39,7 +39,7 @@ export default function events() {
               <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center">
 
 {dataResource2.map(({name, link, description2, contact}) => (
-  <div key={link} className='border-4 w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
+  <div key={link} className='border-[2px] w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
  <div className="flex flex-col justify-center items-center pt-5">
       <h2 className='font-semibold text-xl text-center text-primary-color'>{name}</h2>
       <h2 className='mt-5 font-thin text-center max-w-[250px]'><span className='font-medium'>Contact: </span> {contact}</h2>
@@ -52,7 +52,7 @@ export default function events() {
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center">
 
 {dataResource3.map(({name, link, description2, contact}) => (
-  <div key={description2} className='border-4 w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
+  <div key={description2} className='border-[2px] w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
  <div className="flex flex-col justify-center items-center pt-5">
       <h2 className='font-semibold text-xl text-center text-primary-color'>{name}</h2>
       <h2 className='mt-5 font-thin text-center max-w-[250px]'><span className='font-medium'>Contact: </span> {contact}</h2>
@@ -65,7 +65,7 @@ export default function events() {
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center">
 
 {dataResource4.map(({name, link, description2, contact}) => (
-  <div key={contact} className='border-4 w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
+  <div key={contact} className='border-[2px] w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
  <div className="flex flex-col justify-center items-center pt-5">
       <h2 className='font-semibold text-xl text-center text-primary-color'>{name}</h2>
       <h2 className='mt-5 font-thin text-center max-w-[250px]'><span className='font-medium'>Contact: </span> {contact}</h2>
@@ -80,7 +80,7 @@ export default function events() {
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-evenly sm:items-center">
 
 {dataResource5.map(({name, link, description2, contact}) => (
-  <div key={""} className='border-4 w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
+  <div key={""} className='border-[2px] w-80 h-[300px] border-primary-color rounded-2xl mb-10' >
  <div className="flex flex-col justify-center items-center pt-5">
       <h2 className='font-semibold text-xl text-center text-primary-color'>{name}</h2>
       <h2 className='mt-5 font-thin text-center max-w-[250px]'><span className='font-medium'>Contact: </span> {contact}</h2>

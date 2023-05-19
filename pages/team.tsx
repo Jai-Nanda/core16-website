@@ -17,8 +17,8 @@ export default function team() {
   return (
     <div className="max-w-7xl  m-auto mt-[3%] ">
       <div className="sm:flex-row sm:flex sm:justify-center sm:items-center flex flex-col justify-center items-center">
-        <Link href={"/team"} className="text-4xl font-bold text-primary-color ">Members</Link>
-        <Link href={"/alumini"} className=" sm:text-4xl sm:font-bold  sm:ml-[3%]">Alumini</Link>
+        <Link href={"/team"} className="text-3xl font-bold text-primary-color ">MEMBERS</Link>
+        <Link href={"/alumini"} className=" text-3xl sm:font-medium  sm:ml-[3%]">ALUMNI</Link>
       </div>
       <div className="sm:flex sm:justify-between sm:items-center sm:flex-row  flex flex-col justify-center items-center  ">
         {dataMember.map(({name, avatar, post, description, skill}) => (
@@ -29,8 +29,8 @@ export default function team() {
             <div className='flex flex-col justify-center items-center'>
           <h2 className='font-bold text-lg mt-2'>{name}</h2>
           <h3 className='font-medium text-primary-color '>{post}</h3>
-          <h4 className=' text-center max-w-[200px] mt-1 font-extralight'>{skill}</h4>
-          <p className='font-thin mt-1'>{description}</p>
+          <h4 className=' text-center text-sm max-w-[200px] mt-1 font-extralight'>{skill}</h4>
+          <p className='font-thin text-sm mt-3'>{description}</p>
             </div>
         </div>
         ))}
@@ -44,8 +44,8 @@ export default function team() {
             <div className='flex flex-col justify-center items-center '>
             <h2 className='font-bold text-lg mt-2'>{name}</h2>
           <h3 className='font-medium text-primary-color '>{post}</h3>
-          <h4 className=' text-center max-w-[200px] mt-1 font-extralight'>{skill}</h4>
-          <p className='font-thin mt-1'>{description}</p>
+          <h4 className=' text-center text-sm max-w-[200px] mt-1 '>{skill}</h4>
+          <p className='font-thin text-sm mt-3'>{description}</p>
             </div>
         </div>
         ))}
@@ -59,8 +59,8 @@ export default function team() {
             <div className='flex flex-col justify-center items-center'>
             <h2 className='font-bold text-lg mt-2'>{name}</h2>
           <h3 className='font-medium text-primary-color '>{post}</h3>
-          <h4 className=' text-center max-w-[200px] mt-1 font-extralight'>{skill}</h4>
-          <p className='font-thin mt-1'>{description}</p>
+          <h4 className=' text-center text-sm max-w-[200px] mt-1 font-extralight'>{skill}</h4>
+          <p className='font-thin text-sm mt-3'>{description}</p>
             </div>
         </div>
         ))}
@@ -74,8 +74,8 @@ export default function team() {
             <div className='flex flex-col justify-center items-center '>
             <h2 className='font-bold text-lg mt-2'>{name}</h2>
           <h3 className='font-medium text-primary-color '>{post}</h3>
-          <h4 className=' text-center max-w-[200px] mt-1 font-extralight'>{skill}</h4>
-          <p className='font-thin mt-1'>{description}</p>
+          <h4 className=' text-center text-sm max-w-[200px] mt-1 font-extralight'>{skill}</h4>
+          <p className='font-thin text-sm mt-3'>{description}</p>
             </div>
         </div>
         ))}

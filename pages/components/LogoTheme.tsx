@@ -18,14 +18,14 @@ export default function ThemeButton() {
     
     if(currentTheme === 'dark') {
       return (
-        <Image className="ml-10" src={Logo} alt='CORE LOGO' 
+        <Image className="w-14 h-14" src={Logo} alt='CORE LOGO' 
         >
       
         </Image>
       )
     } else {
       return (
-        <Image className="ml-10" src={Logo2} alt='CORE LOGO'
+        <Image className="w-14 h-14" src={Logo2} alt='CORE LOGO'
         >
        
         </Image>

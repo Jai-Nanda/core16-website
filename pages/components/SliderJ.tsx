@@ -13,8 +13,8 @@ const customStyles = {
       zIndex: 9999
     },
     content: {
-      maxWidth: '600px',
-      maxHeight: '500px',
+      maxWidth: '800px',
+      maxHeight: '700px',
       margin: 'auto',
       backgroundColor: "transparent",
       border: "none",

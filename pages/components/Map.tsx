@@ -11,7 +11,7 @@ export default function DPSMap() {
       className='   m-auto max-w-[100%]'
     >
       <iframe
-        width="400"
+        width="400" 
         height="400"
         id="gmap_canvas"
         src="https://maps.google.com/maps?q=delhi%20public%20school%20dwarka&t=&z=13&ie=UTF8&iwloc=&output=embed"

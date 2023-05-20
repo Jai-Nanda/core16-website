@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import memberData from '@/data/memberData.json'
 import Link from 'next/link';
+import Head from 'next/head';
 export default function team() {
   const dataMember = memberData.filter(members => (
     members.id === "0"
@@ -15,10 +16,17 @@ export default function team() {
     members.id === "3"
   ));
   return (
+    <>
+    <Head>
+        <title>C.O.R.E Computer Obsessed Radical Enthusiast</title>
+        <meta name="description" content="HAIL CORE" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <div className="max-w-7xl  m-auto mt-[3%] ">
       <div className="sm:flex-row sm:flex sm:justify-center sm:items-center flex flex-col justify-center items-center">
         <Link href={"/team"} className="text-3xl font-bold text-primary-color ">MEMBERS</Link>
-        <Link href={"/alumini"} className=" text-3xl sm:font-medium  sm:ml-[3%]">ALUMNI</Link>
+        <Link href={"/alumni"} className=" text-3xl sm:font-medium  sm:ml-[3%]">ALUMNI</Link>
       </div>
       <div className="sm:flex sm:justify-between sm:items-center sm:flex-row  flex flex-col justify-center items-center  ">
         {dataMember.map(({name, avatar, post, description, skill}) => (
@@ -81,5 +89,6 @@ export default function team() {
         ))}
       </div>
     </div>
+    </>
   )
 }

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import Logo from '../public/core _logo.png'
 import resourceData from '../data/resourceData.json'
+import Head from 'next/head';
 export default function events() {
   const dataResource = resourceData.filter(events =>
     events.id === "0"
@@ -21,6 +22,12 @@ export default function events() {
 
   return (
     <>
+    <Head>
+        <title>C.O.R.E Computer Obsessed Radical Enthusiast</title>
+        <meta name="description" content="HAIL CORE" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <div>
     <div className='max-w-7xl m-auto pt-[3%] ' >
       <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center">

@@ -6,11 +6,19 @@ import Xino from '../public/xino.png'
 import { BsChevronRight, BsChevronLeft } from 'react-icons/bs'
 import { useState, useEffect } from 'react'
 import { Carousel } from 'react-bootstrap'
+import Head from 'next/head'
 import CarouselK from './components/CarouselK'
 export default  function news() {
   
   return (
-    <div className=''>
+    <>
+    <Head>
+        <title>C.O.R.E Computer Obsessed Radical Enthusiast</title>
+        <meta name="description" content="HAIL CORE" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className=''>
       <div className='max-w-7xl m-auto mt-[3%]'>
 
       {/* <div className='flex flex-col justify-end mb-20  rounded-2xl   h-[80vh]'style={{
@@ -68,6 +76,7 @@ export default  function news() {
         </div>
       </div>
     </div>
+    </>
   )
 
   

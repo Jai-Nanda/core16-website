@@ -1,7 +1,14 @@
 import Link from "next/link"
+import Head from "next/head"
 export default function NewsMore() {
   return (
     <>
+    <Head>
+        <title>C.O.R.E Computer Obsessed Radical Enthusiast</title>
+        <meta name="description" content="HAIL CORE" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <h1 className='font-bold text-center text-primary-color text-2xl mt-[3%]'>The C.O.R.E. team participated in Exun 2022-2023</h1>
       <p className='font-medium max-w-[80%] m-auto mt-10 h-[60vh]'>Greetings! 
 

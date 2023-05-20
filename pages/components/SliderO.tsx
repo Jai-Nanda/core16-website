@@ -1,15 +1,10 @@
 import React from 'react';
+import ModalContent from './ModalContent';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
-import hi from '../../public/xino.png'
-import img1 from '../../public/img1.jpg'
-import img2 from '../../public/img2.jpg'
-import img3 from '../../public/img3.jpg'
-import img4 from '../../public/img1.jpg'
-import img5 from '../../public/img5.jpg'
-import img6 from '../../public/img6.jpg'
+import image from '../../data/images2.json'
 import { useState } from 'react'
 import {RxCrossCircled} from 'react-icons/rx'
 const customStyles = {
@@ -27,15 +22,17 @@ const customStyles = {
     }
   };
   
-  // Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 import Modal from 'react-modal';
-function SliderO() {
+function SliderO(data: any) {
    
-    
-    const [modalIsOpen, setIsOpen] = React.useState(false);
+    const [modalIsOpen, setmodalIsOpen] = useState(false);
+    const [imgShow, setImgShow] = useState('')
 
-  function openModal() {
-    setIsOpen(true);
+    function openModal(link: string) {
+      setImgShow(link)
+      setmodalIsOpen(true);
+      
+      
   }
 
   function afterOpenModal() {
@@ -43,7 +40,7 @@ function SliderO() {
   }
 
   function closeModal() {
-    setIsOpen(false);
+    setmodalIsOpen(false);
   }
     let settings = {
         dots: true,
@@ -56,85 +53,30 @@ function SliderO() {
     return (
       <>
         <Slider {...settings}>
-            <div className="card-wrapper cursor-pointer">
-                <div className="card">
-                    <div className="card-image mr-10">
-                        <Image src={img1} alt='yo' onClick={openModal} width={400} height={400}></Image>
-                        <Modal 
-        isOpen={modalIsOpen}
-        style={customStyles}
-        onAfterOpen={afterOpenModal}
-        ariaHideApp={false}
-        onRequestClose={closeModal}
-      >
-        <div className='flex flex-col justify-end items-end '>
-        <button onClick={closeModal}><RxCrossCircled color='white' size={36} className='mb-5'  /></button>
-        <Image src={img1} alt='yo' className='w-full max-h-100px'></Image>
-        </div>
-      </Modal>
+        {image.map((arr, key) => 
+            <div className=" cursor-pointer" key={key}>
+                <div className="">
+                    <div className=" mr-10">
+                        <Image src={arr.link} alt='yo' onClick={() => openModal(arr.link)} width={400} height={400} ></Image>
+
                     </div>
                 </div>
-            </div>
-            <div className="card-wrapper">
-                <div className="card">
-                    <div className="card-image mr-10">
-                    <Image src={img2} alt='yo' onClick={openModal}></Image>
-                        <Modal 
+                </div>
+                      )}
+                </Slider>
+                <Modal 
+                        ariaHideApp={false}
         isOpen={modalIsOpen}
         style={customStyles}
-        ariaHideApp={false}
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
       >
         <div className='flex flex-col justify-end items-end '>
         <button onClick={closeModal}><RxCrossCircled color='white' size={36} className='mb-5'  /></button>
-        <Image src={img2} alt='yo' className='w-full max-h-100px'></Image>
+        <Image src={imgShow} alt='yo' className='w-full max-h-100px' width={200} height={200} />
         </div>
       </Modal>
-                    </div>
-                </div>
-            </div>
-            <div className="card-wrapper">
-                <div className="card">
-                    <div className="card-image mr-10">
-                    <Image src={img5} alt='yo' onClick={openModal}></Image>
-                        <Modal 
-        isOpen={modalIsOpen}
-        style={customStyles}
-        ariaHideApp={false}
-        onAfterOpen={afterOpenModal}
-        onRequestClose={closeModal}
-      >
-        <div className='flex flex-col justify-end items-end '>
-        <button onClick={closeModal}><RxCrossCircled color='white' size={36} className='mb-5'  /></button>
-        <Image src={img5} alt='yo' className='w-full max-h-100px'></Image>
-        </div>
-      </Modal>
-                    </div>
-                </div>
-            </div>
-            <div className="card-wrapper">
-                <div className="card">
-                    <div className="card-image mr-10">
-                    <Image src={img4} alt='yo' onClick={openModal}></Image>
-                        <Modal 
-        isOpen={modalIsOpen}
-        style={customStyles}
-        onAfterOpen={afterOpenModal}
-        ariaHideApp={false}
-        onRequestClose={closeModal}
-      >
-        <div className='flex flex-col justify-end items-end '>
-        <button onClick={closeModal}><RxCrossCircled color='white' size={36} className='mb-5'  /></button>
-        <Image src={img4} alt='yo' className='w-full max-h-100px'></Image>
-        </div>
-      </Modal>
-                    </div>
-                </div>
-            </div>
-        </Slider>
-        </>
+                </>
     )
 }
-
 export default SliderO

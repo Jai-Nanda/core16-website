@@ -1,5 +1,6 @@
 import contactData from "../data/contactData.json"
 import DPSMap from "./components/Map"
+import Head from "next/head";
 export default function Contact() {
   const dataContact = contactData.filter(contact =>
     contact.id === "0"
@@ -9,6 +10,12 @@ export default function Contact() {
       );
   return (
     <>
+    <Head>
+        <title>C.O.R.E Computer Obsessed Radical Enthusiast</title>
+        <meta name="description" content="HAIL CORE" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <div className="sm:max-w-5xl sm:m-auto  max-w-[80%] m-auto">
         <div className='flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-between sm:items-center ' >
           <DPSMap />

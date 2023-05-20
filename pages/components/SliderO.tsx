@@ -14,7 +14,7 @@ const customStyles = {
     },
     content: {
       maxWidth: '800px',
-      maxHeight: '800px',
+      maxHeight: '700px',
       margin: 'auto',
       backgroundColor: "transparent",
       border: "none",

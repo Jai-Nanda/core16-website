@@ -54,7 +54,7 @@ export default  function news() {
       <div className='max-w-[80%] sm:flex-row m-auto sm:max-w-7xl flex justify-center items-center flex-col sm:flex sm:justify-between sm:items-center mt-10'>
         <div className='flex justify-normal items-start flex-col ' >
           <Link href={"/newsRead"}>
-          <Image src={Exun} alt='LOGO' className='max-w-[400px] max-h-60'></Image>
+          <Image src={Exun} alt='LOGO' className='max-w-[300px] max-h-56 sm:max-w-[400px] sm:h-60'></Image>
           <h2 className='font-medium text-base mt-3'>The C.O.R.E. team participated in Exun 2022-2023</h2>
           </Link>
           <Link href={"/newsRead"} className='text-primary-color underline'>SEE MORE</Link>
@@ -62,14 +62,14 @@ export default  function news() {
        
         <div className='flex justify-normal items-start flex-col'>
           <Link href={"/newsRead3"}>
-          <Image src={Xino} alt='LOGO' className='max-w-[400px] max-h-60'></Image>
+          <Image src={Xino} alt='LOGO' className='max-w-[300px] max-h-56 sm:max-w-[400px] sm:h-60'></Image>
           <h2 className='font-medium text-base mt-3'>The C.O.R.E. team participated in XINO 2022</h2>
           </Link>
           <Link href={"/"} className='text-primary-color underline'>SEE MORE</Link>
         </div>
         <div className='flex justify-normal items-start flex-col'>
           <Link href={"/newsRead2"}>
-          <Image src={Exun} alt='LOGO' className='max-w-[400px] max-h-60'></Image>
+          <Image src={Exun} alt='LOGO' className='max-w-[300px] max-h-56 sm:max-w-[400px] sm:h-60'></Image>
           <h2 className='font-medium text-base mt-3'>The C.O.R.E. team participated in Exun 2021-2022</h2>
           </Link>
           <Link href={"/"} className='text-primary-color underline'>SEE MORE</Link>

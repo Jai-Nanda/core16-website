@@ -1,14 +1,14 @@
 [      {
         
-        "link": "/../public/img1.jpg"
+        "link": "/./../public/img1.jpg"
       },
       {
-        "link": "/../public/img2.jpg"
+        "link": "/./../public/img2.jpg"
       },
       {
-        "link": "/../public/img5.jpg"
-      },
+        "link": "/./../public/img5.jpg"
+      },  
       {
-        "link": "/../public/img4.JPG"
+        "link": "/./../public/img4.JPG"
       }
     ]

@@ -8,7 +8,7 @@ export default function DPSMap() {
         height: `400px`,
         width: `400px`,
       }}
-      className=' rounded-2xl  m-auto max-w-[100%]'
+      className='   m-auto max-w-[100%]'
     >
       <iframe
         width="400"

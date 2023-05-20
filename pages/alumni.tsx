@@ -29,10 +29,10 @@ export default function team() {
             </h1>
             <div className='sm:flex-row flex sm:justify-between flex-col items-center  m-auto'>
             {a.members.map(({name , avatar, post, description, }) => (
-              <div key={name} className='max-w-[60%] sm:max-w-full mt-10 m-auto sm:border-t-4 border-b-4 rounded-2xl border-r-4 sm: sm:w-[500px] sm:h-60 border-l-4 border-[#642C15] w-[70%] h-[340px] mb-20'>
+              <div key={name} className='max-w-[60%] sm:max-w-full mt-10 m-auto sm:border-t-4 border-b-4 rounded-2xl border-r-4 sm: sm:w-[500px] sm:h-60 border-l-4 dark:border-[#642C15] border-primary-color w-[70%] h-[340px] mb-20'>
                 <div className='sm:flex sm:flex-row-reverse  sm:justify-center sm:items-center flex flex-col  relative '>
                   <Image
-                    className=' sm:min-w-[255px]  min-w-[240px] min-h-[240px] sm:min-h-[255px] -top-24  ml-auto mr-auto -left-0 rounded-full border border-[#642C15] absolute sm:-left-20 sm:-top-2'
+                    className=' sm:min-w-[255px]  min-w-[240px] min-h-[240px] sm:min-h-[255px] -top-24  ml-auto mr-auto -left-0 rounded-full  absolute sm:-left-20 sm:-top-2'
                     src={avatar}
                     alt={name}
                     width={200}

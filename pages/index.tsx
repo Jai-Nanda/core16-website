@@ -41,7 +41,7 @@ COЯE 15 was held on 7th-15th October 2022. Certainly one of the best symposiums
           </div>
         </div>
         <div>
-        <iframe className='sm:mt-10 sm:rounded-2xl max-w-[80%] m-auto mt-10 max-h-[270px] sm:min-w-[540px] sm:min-h-[315px]' width="540" height="315" src="https://www.youtube.com/embed/5anMlH-hEzg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
+        <iframe className='sm:mt-10  max-w-[80%] m-auto mt-10 max-h-[270px] sm:min-w-[540px] sm:min-h-[315px]' width="540" height="315" src="https://www.youtube.com/embed/5anMlH-hEzg" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
         </div>
       </main>
       </div>

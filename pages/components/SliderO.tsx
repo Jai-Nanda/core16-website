@@ -9,7 +9,7 @@ import { useState } from 'react'
 import {RxCrossCircled} from 'react-icons/rx'
 const customStyles = {
     overlay: {
-      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      backgroundColor: 'rgba(0, 0, 0, 0.8)',
       zIndex: 9999
     },
     content: {

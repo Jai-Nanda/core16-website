@@ -5,7 +5,7 @@
     "post": "President",
     "description": "Gamer mei, game bhi mei",
     "id": "0",
-    "skill": "Gaming | Hardware | Group Discussion"
+    "skill": "Gaming | Hardware"
   },
   {
     "name": "Anant Choudhary",
@@ -13,7 +13,7 @@
     "post": "Vice President",
     "description": "Kanhaiya West",
     "id": "0",
-    "skill": "3D | Audio Production | Photography"
+    "skill": "3D | Audio Production"
   },
   {
     "name": "Vaibhav Singh",
@@ -29,7 +29,7 @@
     "post": "Research Head",
     "description": "FITZEE",
     "id": "1",
-    "skill": "Research | Linguistics  "
+    "skill": "Research | Linguistics"
   },
   {
     "name": "Arnav Verma",
@@ -37,7 +37,7 @@
     "post": "Multimedia Head",
     "description": "mujhe kya mei toh arni hun",
     "id": "1",
-    "skill": "Video Editing | Design | Photography"
+    "skill": "Video Editing | Design"
   },
   {
     "name": "Divyansh Khurana",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Jai Nanda",
-    "avatar": "https://imgur.com/HQ6qV24.png",
+    "avatar": "https://imgur.com/oPOBOAf.jpg",
     "post": "Member",
     "description": "nandos",
     "id": "2",
@@ -75,7 +75,7 @@
     "name": "Pranjal Solanki",
     "avatar": "https://media.discordapp.net/attachments/953887608608538624/1095386501887569980/IMG_3835.png?width=456&height=676",
     "post": "Member",
-    "description": "I have a gf",
+    "description": "This too shall pass",
     "id": "3",
     "skill": "Video Editing | Design | 3D"
   },

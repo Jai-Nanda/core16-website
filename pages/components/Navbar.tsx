@@ -81,7 +81,7 @@ const Navbar = () => {
           {links.map(({label , path}) => (
  <ul key={label}> 
               <li className='px-6  '>
-              <Link href={path} key={""} className={`${router.pathname === path ? 'text-primary-color underline ' : 'hover:text-primary-color transition-all dark:text-white text-black'} `} >{label }</Link>
+              <Link href={path} key={""} className={`${router.pathname === path ? 'text-primary-color underline ' : 'hover:text-primary-color transition-all dark:text-white text-black dark:hover:text-primary-color'} `} >{label }</Link>
               </li>
             </ul>
           ))}

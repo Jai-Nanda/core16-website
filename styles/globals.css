@@ -4,7 +4,7 @@
 @layer base {
     body {
       @apply dark:bg-gradient-to-b from-[#180F0B]	 via-[#040200] to-[#121212]
-      dark:text-white bg-gray-100 text-bg-color
+      dark:text-white bg-gray-200 text-bg-color
     }
   }
 

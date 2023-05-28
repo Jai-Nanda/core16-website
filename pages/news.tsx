@@ -29,14 +29,14 @@ export default  function news() {
     }}>
       <h1 className='mb-10 ml-10 text-3xl font-semibold'>C.O.R.E Intras 2023 being held on xx/xx/23</h1>
       </div> */}
-      <CarouselK/>
+      <CarouselK />
       <div>
     {/* {images.length > 0  ?   
       <>
         <div className=" ">
-              <div className=" sm:w-full sm:h-[80vh] sm:overflow-hidden sm:rounded-2xl sm:mb-10 w-[80%] m-auto overflow-hidden h-60">
-                  <img className={` object-cover z-20 sm:w-full sm:h-[80vh] w-full h-60`} src={images[index].name} alt="" />
-                  <img className={` object-cover z-0 sm:w-full   sm:h-[80vh] w-full h-60 `} src={images[index1].name} alt="" />
+              <div className=" sm:w-full sm:h-[80vh] sm:overflow-hidden sm:rounded-2xl sm:mb-10 w-[80%] m-auto overflow-hidden h-auto">
+                  <img className={` object-cover z-20 sm:w-full sm:h-[80vh] w-full h-auto`} src={images[index].name} alt="" />
+                  <img className={` object-cover z-0 sm:w-full   sm:h-[80vh] w-full h-auto `} src={images[index1].name} alt="" />
               </div>
         </div>
 
@@ -46,33 +46,33 @@ export default  function news() {
       </div>
       </div>
 
-      <div className='bg-primary-color h-[1px] min-w-full mt-16'></div>
-      <div className='max-w-[80%] sm:max-w-7xl m-auto flex justify-between items-center mt-20'>
+      <div className='sm:bg-primary-color sm:h-[1px] sm:min-w-full sm:mt-16 bg-primary-color h-[1px] min-w-full mt-5'></div>
+      <div className='max-w-[90%] sm:max-w-7xl m-auto flex justify-between items-center mt-20'>
       <h1 className='font-bold sm:text-3xl text-xl '>Latest Achievements</h1>
-      <Link href={"/"} className='underline uppercase flex justify-center items-center text-primary-color font-medium text-sm sm:text-lg'>ARCHIVE <span className='ml-1 sm:ml-5'><BsChevronRight  size={20}/></span></Link>
+      <Link href={"/"} className='underline uppercase flex justify-center items-center text-primary-color font-medium text-sm sm:text-lg'>ARCHIVE <span className='sm:ml-2'><BsChevronRight  size={16}/></span></Link>
       </div>
-      <div className='max-w-[80%] sm:flex-row m-auto sm:max-w-7xl flex justify-center items-center flex-col sm:flex sm:justify-between sm:items-center mt-10'>
-        <div className='flex justify-normal items-start flex-col ' >
+      <div className='mt-10 flex sm:flex-row flex-col sm:justify-between sm:items-center justify-center items-center sm:max-w-7xl max-w-[80%] m-auto'>
+        <div className='max-w-auto sm:max-w-[80%]  mt-5 sm:mt-0 ' >
           <Link href={"/newsRead"}>
-          <Image src={Exun} alt='LOGO' className='max-w-[300px] max-h-56 sm:max-w-[400px] sm:h-60'></Image>
-          <h2 className='font-medium text-base mt-3'>The C.O.R.E. team participated in Exun 2022-2023</h2>
+          <Image src={Exun} alt='LOGO' className='object-cover sm:max-w-[90%] m-auto'></Image>
+          <h2 className='font-medium text-base mt-3 max-w-[80%] m-auto '>The C.O.R.E. team participated in Exun 2022-2023</h2>
           </Link>
-          <Link href={"/newsRead"} className='text-primary-color underline'>SEE MORE</Link>
+          <Link href={"/newsRead"} className='text-primary-color underline text-center mx-auto ml-10 mt-2'>SEE MORE</Link>
         </div>
        
-        <div className='flex justify-normal items-start flex-col'>
+        <div className='max-w-auto sm:max-w-[80%]  mt-5 sm:mt-0'>
           <Link href={"/newsRead3"}>
-          <Image src={Xino} alt='LOGO' className='max-w-[300px] max-h-56 sm:max-w-[400px] sm:h-60'></Image>
-          <h2 className='font-medium text-base mt-3'>The C.O.R.E. team participated in XINO 2022</h2>
+          <Image src={Xino} alt='LOGO' className='object-cover sm:max-w-[90%] m-auto '></Image>
+          <h2 className='font-medium text-base mt-3 max-w-[80%] m-auto '>The C.O.R.E. team participated in XINO 2022</h2>
           </Link>
-          <Link href={"/"} className='text-primary-color underline'>SEE MORE</Link>
+          <Link href={"/"} className='text-primary-color underline text-center mx-auto ml-10 mt-2'>SEE MORE</Link>
         </div>
-        <div className='flex justify-normal items-start flex-col'>
+        <div className='max-w-auto sm:max-w-[80%]  mt-5 sm:mt-0'>
           <Link href={"/newsRead2"}>
-          <Image src={Exun} alt='LOGO' className='max-w-[300px] max-h-56 sm:max-w-[400px] sm:h-60'></Image>
-          <h2 className='font-medium text-base mt-3'>The C.O.R.E. team participated in Exun 2021-2022</h2>
+          <Image src={Exun} alt='LOGO' className='object-cover sm:max-w-[90%] m-auto'></Image>
+          <h2 className='font-medium text-base mt-3 max-w-[80%] m-auto '>The C.O.R.E. team participated in Exun 2021-2022</h2>
           </Link>
-          <Link href={"/"} className='text-primary-color underline'>SEE MORE</Link>
+          <Link href={"/"} className='text-primary-color underline text-center mx-auto ml-10 mt-2'>SEE MORE</Link>
         </div>
       </div>
     </div>

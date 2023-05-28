@@ -26,11 +26,11 @@ export default function team() {
     <div className="max-w-7xl  m-auto mt-[3%] ">
       <div className="sm:flex-row sm:flex sm:justify-center sm:items-center flex flex-col justify-center items-center">
         <Link href={"/team"} className="text-3xl font-bold text-primary-color ">MEMBERS</Link>
-        <Link href={"/alumni"} className=" text-3xl sm:font-medium  sm:ml-[3%]">ALUMNI</Link>
+        <Link href={"/alumni"} className=" text-3xl sm:font-medium  sm:ml-[3%] mt-5 sm:mt-0">ALUMNI</Link>
       </div>
-      <div className="sm:flex sm:justify-between sm:items-center sm:flex-row  flex flex-col justify-center items-center  ">
+      <div className="sm:flex sm:justify-between sm:flex-row sm:items-center flex flex-col justify-center items-center ">
         {dataMember.map(({name, avatar, post, description, skill}) => (
-          <div key={name} className="sm:flex sm:justify-center sm:items-center sm:flex-col mt-[3%]">
+          <div key={name} className="flex  flex-col justify-center items-center mt-12 ">
             <div className='w-48 h-48'>
           <Image className='w-48 h-48 border-4 object-cover border-primary-color rounded-full' src={avatar} alt='MEMBER IMAGE' width={100} height={100}></Image>
             </div>

@@ -17,7 +17,7 @@ export default function team() {
     <div className="max-w-7xl  m-auto mt-[3%] ">
        <div className="sm:flex-row sm:flex sm:justify-center sm:items-center flex flex-col justify-center items-center">
         <Link href={"/team"} className="text-3xl font-medium  ">MEMBERS</Link>
-        <Link href={"/alumni"} className=" text-3xl sm:font-bold  sm:ml-[3%] text-primary-color ">ALUMNI</Link>
+        <Link href={"/alumni"} className=" text-3xl sm:font-bold  sm:ml-[3%] text-primary-color mt-5 sm:mt-0">ALUMNI</Link>
       </div>
       {alumData.map(a => (
           <div

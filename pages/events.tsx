@@ -37,7 +37,7 @@ export default function events() {
               <div className="flex flex-col items-center justify-center sm:flex sm:flex-row sm:justify-center sm:mt-10 sm:items-center " >
 
 {dataEvent2.map(({title, date, link, desc, contact, note}) => (
-  <div key={date} className='mt-[3%]  min-w-80 h-[300px] border-[2px] border-primary-color rounded-2xl '>
+  <div key={date} className='mt-[3%]  w-80 h-[300px] border-[2px] border-primary-color rounded-2xl '>
  <div className="h-full w-full rounded-xl">
 <div className='flex flex-col justify-center items-center pt-5'>
       <h2 className='font-semibold text-2xl text-center'>{title}</h2>

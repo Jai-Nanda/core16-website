@@ -58,12 +58,7 @@ const Navbar = () => {
       label: "CONTACT",
       path: "/contact",
       pname: "contact"
-    },
-    {
-      label: "GALLERY",
-      path: "/gallery",
-      pname: "gallery"
-    },
+    }
   ]
 
 

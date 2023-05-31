@@ -32,19 +32,19 @@ export default function team() {
               <div key={name} className='max-w-[60%] sm:max-w-full mt-10 m-auto sm:border-t-4 border-b-4 rounded-2xl border-r-4 sm: sm:w-[500px] sm:h-60 border-l-4 dark:border-[#642C15] border-primary-color w-[70%] h-[340px] mb-20'>
                 <div className='sm:flex sm:flex-row-reverse  sm:justify-center sm:items-center flex flex-col  relative '>
                   <Image
-                    className=' sm:min-w-[255px]  min-w-[240px] min-h-[240px] sm:min-h-[255px] -top-24  ml-auto mr-auto -left-0 rounded-full  absolute sm:-left-20 sm:-top-2'
+                    className=' sm:w-[255px]  w-[240px] h-[240px] sm:h-[255px] -top-24  ml-auto mr-auto -left-0 rounded-full  absolute sm:-left-20 sm:-top-3 object-cover'
                     src={avatar}
                     alt={name}
                     width={200}
                     height={200}
                   />
                   <div className='flex flex-col justify-center sm:ml-40 sm:pt-16 mt-40 sm:mt-0  items-center'>
-                    <h1 className='font-semibold text-primary-color sm:text-xl text-lg'>
+                    <h1 className='font-semibold text-primary-color sm:text-xl text-lg text-center'>
                       {name}
                     </h1>
                     
                     <h2
-                      className='font-medium mt-1'
+                      className='font-medium sm:mt-1 text-center'
                     >
                       {post}
                     </h2>

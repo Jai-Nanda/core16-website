@@ -73,7 +73,7 @@ export default function team() {
         </div>
         ))}
       </div>
-      <div className="sm:flex sm:flex-row sm:justify-evenly sm:items-center flex flex-col justify-center items-center ">
+      <div className="sm:flex sm:flex-row sm:justify-between sm:items-center flex flex-col justify-center items-center ">
         {dataMember4.map(({name, avatar, post, description, skill}) => (
           <div key={skill} className="flex justify-center items-center flex-col mt-[4%]">
             <div className=''>

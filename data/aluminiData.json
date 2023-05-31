@@ -1,4 +1,48 @@
 [
+  {
+    "year": "2022",
+    "members":[
+      {
+        "name": "Manan",
+        "avatar": "https://imgur.com/BGTbtTY.jpg",
+        "post": "President",
+        "description": "quote",
+        
+        "whereabouts": [
+          "Sophomore at Johns Hopkins",
+          "Sophomore at Johns Hopkins"
+        ],
+        "socials": [
+          {
+            "instagram": "https://instagram.com/",
+            "facebook": "https://facebook.com/",
+            "email": "mailto:raghavpuri1234567@gmail.com",
+            "github": "https://github.com/",
+            "behance": "https://behance.net/"
+          }
+        ]
+      },
+      {
+        "name": "Taran Chadha",
+        "avatar": "https://imgur.com/5HvNCki.png",
+        "post": "Vice President",
+        "description": "quote",
+        "whereabouts": [
+          "Sophomore at Johns Hopkins",
+          "Sophomore at Johns Hopkins"
+        ],
+        "socials": [
+          {
+            "instagram": "https://instagram.com/",
+            "facebook": "https://facebook.com/",
+            "email": "mailto:abc@gmail.com",
+            "github": "https://github.com/",
+            "behance": "https://behance.net/"
+          }
+        ]
+      }
+    ]
+  },
     {
       "year": "2021",
       "members":[

@@ -64,11 +64,19 @@
     "skill": "Group Discussion"
   },
   {
+    "name": "Yathart Jain",
+    "avatar": "https://i.postimg.cc/fbSVyJNS/IMG-20230601-010144.jpg",
+    "post": "Member",
+    "description": "real.",
+    "id": "2",
+    "skill": "Gaming | Surprise"
+  },
+  {
     "name": "Jai Nanda",
     "avatar": "https://imgur.com/oPOBOAf.jpg",
     "post": "Member",
     "description": "nandos",
-    "id": "2",
+    "id": "3",
     "skill": "Web Development | Design"
   },
   {

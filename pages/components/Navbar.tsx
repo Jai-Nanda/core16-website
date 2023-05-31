@@ -65,7 +65,7 @@ const Navbar = () => {
   return (
     <div
       
-      className={navbar ? 'left-0 top-0 w-full z-10 ease-in duration-300  pb-3  sticky backdrop-blur-xl dark:bg-white/5 bg-black/5 transition-all' : ' sticky  left-0 top-0 w-full z-10 ease-in  duration-300  pb-2 transition-all'}
+      className={navbar ? 'left-0 top-0 w-full z-10 ease-in duration-300  pb-3  sticky backdrop-blur-lg sm:backdrop-blur-xl dark:bg-white/5 bg-white bg-opacity-50   transition-all' : ' sticky  left-0 top-0 w-full z-10 ease-in  duration-300  pb-2 transition-all'}
     >
       <div className='max-w-7xl m-auto flex justify-between items-center pt-5 '>
         <Link href='/' className="ml-10 sm:ml-0">

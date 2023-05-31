@@ -36,8 +36,6 @@ export default function Home() {
            <p className='sm:max-w-[90%] sm:mt-5 max-w-[80%] m-auto mt-5 text-center sm:text-left sm:m-0'>
 Over the years, the club has progressed phenomenally, dominating several competitions and attaining victory. We have set high standards and ensure that we not only conform to these year after year, but set the bar a few notches higher. It takes a radical attitude, love for computers and an exceptional set of skills to be a part of the club.
 </p>
-<p className='sm:max-w-[90%] sm:mt-5 max-w-[80%] m-auto mt-5 text-center sm:text-left sm:m-0'>
-COЯE 15 was held on 7th-15th October 2022. Certainly one of the best symposiums last year, it consisted of various events like Programming, Web Design, Gaming, Cryptic Hunt etc. The overall trophy was bagged by AISG46.</p>
           </div>
         </div>
         <div>

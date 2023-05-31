@@ -32,7 +32,7 @@ export default function team() {
               <div key={name} className='max-w-[60%] sm:max-w-full mt-10 m-auto sm:border-t-4 border-b-4 rounded-2xl border-r-4 sm: sm:w-[500px] sm:h-60 border-l-4 dark:border-[#642C15] border-primary-color w-[70%] h-[340px] mb-20'>
                 <div className='sm:flex sm:flex-row-reverse  sm:justify-center sm:items-center flex flex-col  relative '>
                   <Image
-                    className=' sm:w-[255px]  w-[240px] h-[240px] sm:h-[255px] -top-24  ml-auto mr-auto -left-0 rounded-full  absolute sm:-left-20 sm:-top-3 object-cover'
+                    className=' sm:w-[255px]  w-[240px] h-[240px] sm:h-[255px] -top-24  ml-auto mr-auto -left-0 rounded-full   absolute sm:-left-20 sm:-top-3 object-cover'
                     src={avatar}
                     alt={name}
                     width={200}

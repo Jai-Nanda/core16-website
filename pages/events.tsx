@@ -24,7 +24,7 @@ export default function events() {
           <div key={title} className='mt-[5%]  w-80 h-[300px] border-[2px] border-primary-color rounded-2xl '>
          <div className="h-full w-full " >
       <div className='flex flex-col justify-center items-center pt-5 '>
-              <h2 className='font-semibold text-xl text-center'>{title}</h2>
+              <h2 className='font-semibold text-xl text-center text-primary-color'>{title}</h2>
               <h2 className='mt-1 text-center'>{note}</h2>
               <h4 className='mt-1 text-center font-semibold text-xs text-primary-color'>{date}</h4>
               <p className='font-light text-center text-sm max-w-[250px] mt-1 '>{desc} </p>

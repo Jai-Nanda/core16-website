@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import hi from '../../public/news.png'
+import hi2 from '../../public/coreintras.png'
 import Image from 'next/image';
 export default class NextJsCarousel extends Component {
 	render() {
@@ -14,7 +15,7 @@ export default class NextJsCarousel extends Component {
 
 				</div>
 				<div>
-        <Image src={hi} alt='jai'/>
+        <Image src={hi2} alt='jai'/>
 					<p className="legend">Image 2</p>
 
 				</div>

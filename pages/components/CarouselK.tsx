@@ -11,27 +11,22 @@ export default class NextJsCarousel extends Component {
 			<Carousel>
 				<div className='sm:max-w-7xl m-auto max-w-[90%]'>
           <Image src={hi2} alt='jai'/>
-					<p className="legend">Image 1</p>
 
 				</div>
 				<div>
         <Image src={hi2} alt='jai'/>
-					<p className="legend">Image 2</p>
 
 				</div>
 				<div>
         <Image src={hi2} alt='jai'/>
-					<p className="legend">Image 3</p>
 
 				</div>
 				<div>
         <Image src={hi2} alt='jai'/>
-					<p className="legend">Image 4</p>
 
 				</div>
 				<div>
         <Image src={hi2} alt='jai'/>
-					<p className="legend">Image 5</p>
 
 				</div>
 			</Carousel>

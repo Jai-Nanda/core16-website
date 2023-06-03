@@ -84,7 +84,7 @@ export default function events() {
       </div>
       
       </div>
-      <div className="flex flex-col items-center justify-between sm:flex sm:flex-row sm:justify-start  sm:items-center max-w-7xl m-auto">
+      <div className="flex flex-col items-center justify-between sm:flex sm:flex-row sm:justify-between  sm:items-center max-w-7xl m-auto">
 
 {dataResource5.map(({name, link, description2, contact}) => (
   <div key={""} className='border-[2px] w-80 min-h-[300px] border-primary-color rounded-2xl mb-10 ' >

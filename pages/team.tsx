@@ -15,6 +15,9 @@ export default function team() {
   const dataMember4 = memberData.filter(members => (
     members.id === "3"
   ));
+  const dataMember5 = memberData.filter(members => (
+    members.id === "4"
+  ));
   return (
     <>
     <Head>
@@ -75,6 +78,21 @@ export default function team() {
       </div>
       <div className="sm:flex sm:flex-row sm:justify-between sm:items-center flex flex-col justify-center items-center ">
         {dataMember4.map(({name, avatar, post, description, skill}) => (
+          <div key={skill} className="flex justify-center items-center flex-col mt-[4%]">
+            <div className=''>
+          <Image className='w-48 h-48 border-4 object-cover border-primary-color rounded-full' src={avatar} alt='MEMBER IMAGE' width={100} height={100}></Image>
+            </div>
+            <div className='flex flex-col justify-center items-center '>
+            <h2 className='font-bold text-lg mt-2'>{name}</h2>
+          <h3 className='font-medium text-primary-color '>{post}</h3>
+          <h4 className=' text-center text-sm max-w-[500px] mt-1 font-extralight'>{skill}</h4>
+          <p className='font-thin text-sm mt-3'>{description}</p>
+            </div>
+        </div>
+        ))}
+      </div>
+      <div className="sm:flex sm:flex-row sm:justify-center sm:items-center flex flex-col justify-center items-center ">
+        {dataMember5.map(({name, avatar, post, description, skill}) => (
           <div key={skill} className="flex justify-center items-center flex-col mt-[4%]">
             <div className=''>
           <Image className='w-48 h-48 border-4 object-cover border-primary-color rounded-full' src={avatar} alt='MEMBER IMAGE' width={100} height={100}></Image>

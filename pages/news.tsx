@@ -52,7 +52,7 @@ export default  function news() {
       <Link href={"/"} className='underline uppercase flex justify-center items-center text-primary-color font-medium text-sm sm:text-lg'>ARCHIVE <span className='sm:ml-2'><BsChevronRight  size={16}/></span></Link>
       </div>
       <div className='mt-10 flex sm:flex-row flex-col sm:justify-between sm:items-center justify-center items-center sm:max-w-7xl max-w-[80%] m-auto'>
-        <div className='max-w-auto sm:max-w-[90%]  mt-5 sm:mt-0 ' >
+        <div className='max-w-auto sm:max-w-[80%]  mt-5 sm:mt-0 ' >
           <Link href={"/newsRead"}>
           <Image src={Exun} alt='LOGO' className='object-cover sm:max-w-[90%] m-auto'></Image>
           <h2 className='font-medium text-base mt-3 max-w-[90%] m-auto '>The C.O.R.E. team participated in Exun 2022-2023</h2>

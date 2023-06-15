@@ -57,7 +57,8 @@ export default  function news() {
           <Image src={Exun} alt='LOGO' className='object-cover sm:max-w-[90%] m-auto'></Image>
           <h2 className='font-medium text-base mt-3 max-w-[90%] m-auto '>The C.O.R.E. team participated in Exun 2022-2023</h2>
           </Link>
-          <Link href={"/newsRead"} className='text-primary-color underline text-center mx-auto ml-10 mt-2'>SEE MORE</Link>
+          <Link href={"/newsRead"}>
+            <h2 className='text-primary-color underline mt-3 max-w-[90%] m-auto '>SEE MORE</h2></Link>
         </div>
        
         <div className='max-w-auto sm:max-w-[90%]  mt-5 sm:mt-0'>
@@ -65,7 +66,8 @@ export default  function news() {
           <Image src={Xino} alt='LOGO' className='object-cover sm:max-w-[90%] m-auto '></Image>
           <h2 className='font-medium text-base mt-3 max-w-[90%] m-auto '>The C.O.R.E. team participated in XINO 2022-2023</h2>
           </Link>
-          <Link href={"/"} className='text-primary-color underline text-center mx-auto ml-10 mt-2'>SEE MORE</Link>
+          <Link href={"/"}> 
+            <h2 className='text-primary-color underline mt-3 max-w-[90%] m-auto '>SEE MORE</h2></Link>
         </div>
         <div className='max-w-auto sm:max-w-[90%]  mt-5 sm:mt-0'>
           <Link href={"/newsRead2"}>

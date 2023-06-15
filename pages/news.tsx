@@ -57,7 +57,7 @@ export default  function news() {
           <Image src={Exun} alt='LOGO' className='object-cover sm:max-w-[90%] m-auto'></Image>
           <h2 className='font-medium text-base mt-3 max-w-[90%] m-auto '>The C.O.R.E. team participated in Exun 2022-2023</h2>
           </Link>
-          <Link href={"/newsRead"} className='text-primary-color underline text-base mt-3 max-w-[90%] m-auto'>SEE MORE</Link>
+          <Link href={"/newsRead"} className='text-primary-color underline text-base mt-3 max-w-[80%] m-auto'>SEE MORE</Link>
         </div>
        
         <div className='max-w-auto sm:max-w-[90%]  mt-5 sm:mt-0'>

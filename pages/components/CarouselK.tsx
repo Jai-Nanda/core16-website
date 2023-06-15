@@ -17,20 +17,7 @@ export default class NextJsCarousel extends Component {
         <Image src={hi2} alt='jai'/>
 
 				</div>
-				<!--
-				<div>
-        <Image src={hi2} alt='jai'/>
-
-				</div>
-				<div>
-        <Image src={hi2} alt='jai'/>
-
-				</div>
-				<div>
-        <Image src={hi2} alt='jai'/>
-
-				</div>
-				-->
+				
 			</Carousel>
 			</div>
 		);

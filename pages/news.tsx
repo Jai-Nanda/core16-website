@@ -73,7 +73,7 @@ export default  function news() {
           <h2 className='font-medium text-base mt-3 max-w-[90%] m-auto '>The C.O.R.E. team participated in Exun 2021-2022</h2>
           </Link>
           <Link href={"/"}> 
-            <h2 className='text-primary-color underline text-left mx-auto ml-10 mt-2'>SEE MORE</h2></Link>
+            <h2 className='text-primary-color underline mt-3 max-w-[90%] m-auto '>SEE MORE</h2></Link>
         </div>
       </div>
     </div>
